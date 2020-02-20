@@ -45,8 +45,9 @@ void mainQuiz() {
     std::cout << "Press enter to exit, or enter \"r\" to do another quiz";
     std::cin >> userInput;
     if (userInput == "r"){
-        mainQuiz();
         userScore = 0;
+        mainQuiz();
+
     }
     else{
         exit(0);
