@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <unordered_map>
 #include <string>
 #include <cassert>
@@ -30,7 +30,7 @@ void mainQuiz() {
     totalScore = selectedQuiz.size();
     for (std::unordered_map<std::string, std::string>::iterator i = selectedQuiz.begin();
     i !=selectedQuiz.end(); i++){
-        std::cout << "Please type the Kanji for " << i->first <<std::endl;
+        std::cout << "Please type the Kanji for " <<"\"" << i->first << "\"" <<std::endl;
         std::cin >> userInput;
         if (userInput == i->second){
             std::cout << "Right answer!" << std::endl;
