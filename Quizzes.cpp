@@ -3,23 +3,24 @@
 //
 #include "Quizzes.h"
 
+
 std::unordered_map<std::string, std::string> quizList[10];
 std::unordered_map<std::string, std::string> Lesson3({
                                                              {"One", "\u4e00"},
-                                                             {"Two", "\u2f06"},
-                                                             {"Three", "三"},
-                                                             {"Four","四"},
-                                                             {"Five", "五"},
-                                                             {"Six", "六"},
-                                                             {"Seven", "七"},
-                                                             {"Eight", "八"},
-                                                             {"Nine", "九"},
-                                                             {"Ten", "十"},
-                                                             {"Hundred", "百"},
-                                                             {"Thousand", "千"},
-                                                             {"Ten Thousand", "万"},
-                                                             {"Yen (Japanese money)", "円"},
-                                                             {"Time", "時"},
+                                                             {"Two", u8"二"},
+                                                             {"Three", "\u4e00"},
+//                                                             {"Four",u8"四"},
+//                                                             {"Five", "五"},
+//                                                             {"Six", "六"},
+//                                                             {"Seven", "七"},
+//                                                             {"Eight", "八"},
+//                                                             {"Nine", "九"},
+//                                                             {"Ten", "十"},
+//                                                             {"Hundred", "百"},
+//                                                             {"Thousand", "千"},
+//                                                             {"Ten Thousand", "万"},
+//                                                             {"Yen (Japanese money)", "円"},
+//                                                             {"Time", "時"},
                                                      });
 //std::unordered_map<std::string, std::string> Lesson4({
 //                                                             {"Day/Sun", "日"},
